@@ -1,0 +1,13 @@
+Explique los modos de programación en Python.
+
+a. Modo Interactivo:
+	- Utilizamos una interfaz de comandos.
+	- Obtenemos realimentación inmediata.
+	- Útil para depurar aplicaciones y testear prototipos.
+	- Utiliza tres ">".
+
+b. Modo normal:
+	- Es la manera tradicional de programar.
+	- Utiliza un editor de texto y el interprete de comandos.
+	- Deben ser archivos estructurados y terminados.
+	- Ejecuta archivos con extensión .py
