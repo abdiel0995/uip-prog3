@@ -1,15 +1,14 @@
-
-
-
->>> li[ ]
->>> print("Lista de Supermercados")
->>> print("-------------------------------")
->>> op=input("1. Agregar elementos/n"+"2. Eliminar elementos/n"+"3. Ver todos los elementos")
+>>> lis=["Super Economico", "Super Barato", "Super Ahorro"]
+>>> print("1. Agregar \n2. Eliminar \n3. Ver lista")
+>>> ad=" "
+>>> op=input("Seleccione una opcion(1,2,3)")
 >>> if op==1:
->>>    nom=input("Ingrese nuevo nombre")
->>>    li.append(nom)
+	ad=input("Ingrese nuevo nombre")
+	lis.append[ad]
 >>> if op==2:
->>>    nom=input("Escriba nombre exacto a borrar")
->>>    del li[nom]
+	ad=input("Ingrese nombre exacto a borrar")
+	lis.remove[ad]
 >>> if op==3:
->>>    print (li)
+>>> print(lis)
+['Super Economico', 'Super Barato', 'Super Ahorro']
+>>> 
