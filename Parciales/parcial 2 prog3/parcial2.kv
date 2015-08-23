@@ -1,0 +1,33 @@
+ScreenManager:
+	Screen:
+		name: 'menu'
+			
+			BoxLayout:
+				orientation:'vertical'
+				Button:
+					background_color: (0.5, 1.5, 3.3, 6.5)
+					text: 'Traducir'
+					on_press: root.current = ''
+					
+
+					GridLayout:
+						cols: 2
+						rows: 2
+						Label:
+							text: "Español"
+						TextInput:
+							id: esanimal
+							multiline: False
+							padding:[10, 0.5 *(self.height - self.line_height)]
+
+						Label:
+							text: "Inglés"
+						TextInput:
+							id: enanimal
+							multiline: False
+							padding:[10, 0.5 *(self.height - self.line_height)]
+
+				
+			
+
+
